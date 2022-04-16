@@ -1,4 +1,4 @@
-# My first training landing page
+# My second training landing page
 
 ## [DEMO page](https://mastermind-777.github.io/My-second-landing-page/)
 
