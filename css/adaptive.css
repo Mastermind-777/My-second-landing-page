@@ -384,7 +384,7 @@
     left: 0;
     z-index: 200;
     width: 100%;
-    background: url(/img/bg/bg_mobile.png) no-repeat top center/cover;
+    background: url(../img/bg/bg_mobile.png) no-repeat top center/cover;
   }
 
   .header-row:after {
