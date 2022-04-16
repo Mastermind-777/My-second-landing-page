@@ -1,13 +1,13 @@
-@import url('../css/first-screen.css');
-@import url('../css/presentation.css');
-@import url('../css/portfolio.css');
-@import url('../css/header.css');
-@import url('../css/staff.css');
-@import url('../css/download.css');
-@import url('../css/slider.css');
-@import url('../css/contact.css');
-@import url('../css/footer.css');
-@import url('../css/adaptive.css');
+@import url('./first-screen.css');
+@import url('./presentation.css');
+@import url('./portfolio.css');
+@import url('./header.css');
+@import url('./staff.css');
+@import url('./download.css');
+@import url('./slider.css');
+@import url('./contact.css');
+@import url('./footer.css');
+@import url('./adaptive.css');
 
 * {
   margin: 0;
