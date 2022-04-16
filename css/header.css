@@ -1,0 +1,75 @@
+.header {
+  width: 100%;
+  padding-top: 38px;
+  background-image: url('../img/bg/Hero-Image_GRN-landing-page2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.header::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #2b2e4a;
+  opacity: 0.96;
+}
+
+.header-container {
+  position: relative;
+  z-index: 999;
+}
+
+.header-logo {
+  max-width: 100%;
+  display: flex;
+}
+
+.header-row {
+  margin-left: 15px;
+  margin-right: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  /* position: fixed;
+  z-index: 200; */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15)
+}
+
+.header-nav {}
+
+.header-nav_items {
+  display: flex;
+}
+
+.header-nav_item {
+  margin-left: 3em;
+}
+
+/* .header-nav_item:first-child {
+  margin-right: 70px;
+} */
+.header-link {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 11px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  border-bottom: 2px solid transparent;
+  transition: all .5s;
+}
+
+.header-link:hover {
+  color: #e84545;
+  border-bottom: 2px solid #e84545;
+}

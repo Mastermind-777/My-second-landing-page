@@ -1,0 +1,27 @@
+.footer {
+  width: 100%;
+  background-color: #313454;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.footer-text {
+  margin: auto;
+  font-size: 14px;
+  max-width: 312px;
+  text-align: center;
+  font-family: 'Releway';
+  font-style: normal;
+  font-weight: normal;
+  color: #808080;
+}
+
+.img-footer {
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+}
+
+.footer-colortext {
+  color: #ffffff;
+}

@@ -1,0 +1,50 @@
+@import url('../css/first-screen.css');
+@import url('../css/presentation.css');
+@import url('../css/portfolio.css');
+@import url('../css/header.css');
+@import url('../css/staff.css');
+@import url('../css/download.css');
+@import url('../css/slider.css');
+@import url('../css/contact.css');
+@import url('../css/footer.css');
+@import url('../css/adaptive.css');
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.html {
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1170px;
+  padding: 0 15px;
+}
+
+.title {
+  text-align: center;
+  font-size: 65px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.text {
+  text-align: center;
+  font-size: 22px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: normal;
+  color: #ffffff;
+}

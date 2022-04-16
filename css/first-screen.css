@@ -1,0 +1,49 @@
+.first-screen {
+  width: 100%;
+  padding-top: 155px;
+  padding-bottom: 155px;
+}
+
+.first-screen .title .first-screen-title {
+  max-width: 868px;
+  margin: auto;
+  font-size: 4.0625rem;
+}
+
+.first-screen .text .first-screen-text {
+  max-width: 912px;
+  margin-top: 41px;
+  margin-bottom: 41px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.375rem;
+}
+
+.first-screen-button {
+  width: 200px;
+  background-color: #e84545;
+  margin: 0 auto;
+  transition: all 0.3s ease-out
+}
+
+.first-screen-button:hover {
+  font-weight: 700;
+  transform: scale(1.15);
+  background-color: #c53838;
+  box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5)
+}
+
+.first-screen-button:active {
+  transform: scale(1.05);
+  background-color: #e64343
+}
+
+.first-screen-link {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-size: 0.8125rem;
+  line-height: 46px;
+}
